@@ -66,7 +66,7 @@ def plot_fibo(x_axis, y_axis, plot_title, single=True, new_y=[]):
     plt.xlabel('growing n')
     plt.ylabel('time (s)')
     plt.tight_layout()
-    plt.savefig('plot.png')
+    plt.savefig('fibonacci_runtime_plot.png')
     return plt.show()
 
 
